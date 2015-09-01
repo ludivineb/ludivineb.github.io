@@ -1,0 +1,124 @@
+resume-title: Résumé
+resume-content: >
+            Responsable de produits Cloud chez iWeb/Internap à Montréal (Canada),
+            j'ai travaillé avec des équipes multidisciplinaires internationales impliquant des experts
+            de tous les départements de l'entreprise. Professionnel, orienté client et avec un bon esprit d'équipe,
+            je me suis spécialisé dans la plateforme Openstack dans un environnement de développement Scrum/Agile.
+            Mes objectifs à court et moyen termes sont de continuer et progresser dans la gestion de produits.
+experience-title: Expérience
+experience-list:
+- title  : PVTiste
+  compagn:
+  date   : janvier 2015 – juillet 2015
+  place  : Nouvelle-Zélande
+  list  :
+  - name: "Programme Vacances-Travail (PVT) : "
+    items:
+    - name: Immersion complète dans le pays et sa culture
+    - name: Planifier et résoudre les problèmes au jour le jour
+    - name: Perfectionnement de l'anglais
+- title: Product Owner - Public Cloud
+  compagn: Internap / iWeb
+  date : juillet 2011 – décembre 2014
+  place: Montréal (Canada)
+  list:
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Connaitre et communiquer la vision du produit, le marché, les clients et la compétition.
+    - name: Prendre les décisions reliées à son produit en créant et maintenant les items du Product Backlog.
+    - name: Représenter les clients internes comme externes face aux équipes de développement en travaillant étroitement avec celles-ci.
+    - name: Communiquer l'avancement et la rentabilité de son produit face aux parties prenantes.
+  - name: "Principaux projets réalisés : "
+    items:
+    - name: Lancement des serveurs cloud Openstack AgileCLOUD pour Internap et iWeb avec programmes de beta
+    - name: "Amélioration de l'offre cloud: Volume Snapshots, OS Windows, Block Storage"
+    - name: Mise en place de la facturation cloud à l'usage
+    - name: Lancement du produit de stockage object Openstack
+- title: Analyste d'affaires / Chargé de projet
+  compagn: iWeb
+  date : juillet 2010 – juin 2011
+  place: Montréal (Canada)
+  list  :
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Représenter le client et développer les besoins d'affaires
+    - name: Suivre et coordoner les projets (définition des besoins, analyse, développement logiciel, formation, commercialisation, capitalisation)
+  - name: "Principaux projets réalisés : "
+    items:
+    - name: Lancement et amélioration de la gamme de serveurs dédiés Smart
+    - name: Nouveau panneau de contrôle en ligne "iWeb Control Center"
+- title: Technicien informatique
+  compagn: École Polytechnique de Montréal
+  date : mars 2009 – décembre 2010
+  place: Montréal (Canada)
+  list  :
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Soutien technique de la plateforme d'apprentissage en ligne Moodle de l'Ecole Polytechnique de Montréal
+- title: Développeur C#
+  compagn: SD-Technologies GmbH
+  date : mars 2008 – août 2008
+  place: Ulm (Allemagne)
+  list  :
+  - name: "Projet de fin d'études : "
+    items:
+    - name: Analyse et conception d'un logiciel en C# pour l'analyse et la réparation de fichiers Microsoft Windows Installer
+
+certification-title: Certifications
+certification-list:
+- title: Pragmatic Marketing Certified
+  compa: Pragmatic Marketing
+  date : février 2013
+  place  : Boston (États-Unis)
+- title: Professional Scrum Product Owner I
+  compa: Scrum.org
+  date : mai 2012
+  place: Montréal (Canada)
+
+studies-title: Formation
+studies-list:
+- school : École Polytechnique de Montreal
+  place  : Montréal (Canada)
+  date   : janvier 2009 - décembre 2010
+  diplome: Maitrise en gestion de projets technologiques
+- school : >
+            ISFATES
+            <small>- Institut Supérieur Franco-Allemand de Techniques, d'Economie et de Sciences</small>
+  place  : Metz (France) / Sarrebruck (Allemagne)
+  date   : septembre 2004 - août 2008
+  diplome: "Double diplôme: Maitrise en informatique et Diplom-Informatiker"
+
+langues-title: Langues
+langues-list:
+- title: Français
+  desc: Langue maternelle
+  note: 5
+- title: Anglais
+  desc: Capacité professionnelle complète
+  note: 4
+- title: Allemand
+  desc: Compétence professionnelle
+  note: 3
+
+competences-title: Compétences
+competences-list:
+- name: Gestion de Projet Agile
+  note: 5
+- name: Cloud Computing
+  note: 5
+- name: Gestion de Produit
+  note: 4
+- name: Hébergement Web
+  note: 4
+- name: Développement Web
+  note: 3
+- name: Python
+  note: 3
+
+hobbies-title: Loisirs et activités
+hobbies-list:
+- name: Football
+- name: Programmation
+- name: Nature
+- name: Randonnées
+- name: Voyages
