@@ -77,13 +77,13 @@ certification-list:
 
 studies-title: Formation
 studies-list:
-- school : École Polytechnique de Montreal
+- school : Hautes Ecoles de Commerce de Montréal
   place  : Montréal (Canada)
-  date   : janvier 2009 - décembre 2010
-  diplome: Maitrise en gestion de projets technologiques
+  date   : Août 2010 - Juin 2012
+  diplome: Master en management
 - school : >
-            ISFATES
-            <small>- Institut Supérieur Franco-Allemand de Techniques, d'Economie et de Sciences</small>
+            INSEEC Lyon
+            <small>- Ecole de Commerce Européenne </small>
   place  : Metz (France) / Sarrebruck (Allemagne)
   date   : septembre 2004 - août 2008
   diplome: "Double diplôme: Maitrise en informatique et Diplom-Informatiker"
@@ -96,7 +96,7 @@ langues-list:
 - title: Anglais
   desc: Capacité professionnelle complète
   note: 4
-- title: Allemand
+- title: Italien
   desc: Compétence professionnelle
   note: 3
 
