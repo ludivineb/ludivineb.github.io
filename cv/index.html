@@ -1,0 +1,178 @@
+---
+---
+
+{% assign entete = site.data.entete %}
+{% assign data = site.data.cv %}
+
+<html style="font-size: 0.79em">
+
+<head>
+  <title>{{ entete.name }}</title>
+  <link rel="stylesheet" type="text/css" class="ui" href="//oss.maxcdn.com/semantic-ui/2.0.8/semantic.min.css">
+</head>
+
+<body>
+  <div class="ui text container">
+
+    <div class="ui grid">
+      <div class="middle aligned row">
+        <div class="left floated five wide column">
+          <h1 class="ui header">{{ entete.name }}</h1>
+        </div>
+        <div class="right floated nine wide column">
+          <div class="ui tiny divided horizontal list">
+            {% for contact in entete.contact_info %}
+            <div class="item">
+              <div class="content">
+                <div class="header">{{ contact.title }}</div>
+                {% for content in contact.content %}
+                <div class="description">{{ content }}</div>
+                {% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="ui dividing header" style="color: #006AC2">{{ entete.title }}</h3>
+    <p align="justify"><small>{{ data.resume-content }}</small></p>
+
+    <h4 class="ui dividing blue header">{{ data.experience-title }}</h4>
+    {% for experience in data.experience-list %}
+    <table class="ui very basic very compact small table">
+      <tbody>
+        <tr>
+          <td>
+            <strong>{{ experience.title }}</strong>
+            <br/>{{ experience.compagn }}
+          </td>
+          <td class="right aligned">
+            <em>{{ experience.date }}</em>
+            <br/><small>{{ experience.place }}</small>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="ui small list">
+              {% for section in experience.list %}
+              <div class="item">
+                <div class="content">
+                  {{ section.name }}
+                </div>
+                <div class="list">
+                  {% for item in section.items %}
+                  <div class="item">
+                    <div class="content">- {{ item.name }}</div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    {% endfor %}
+
+    <h4 class="ui dividing blue header">{{ data.certification-title }}</h4>
+    <table class="ui very basic very compact small table">
+      <tbody>
+        {% for certification in data.certification-list %}
+        <tr>
+          <td>
+            <strong>{{ certification.title }}</strong>
+            <br/>{{ certification.compa }}
+          </td>
+          <td class="right aligned">
+            <em>{{ certification.date }}</em>
+            <br/><small>{{ certification.place }}</small>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h4 class="ui dividing blue header">{{ data.studies-title }}</h4>
+    <table class="ui very basic very compact small table">
+      <tbody>
+        {% for studies in data.studies-list %}
+        <tr>
+          <td>
+            <strong>{{ studies.school }}</strong>
+            <br/>{{ studies.diplome }}
+          </td>
+          <td class="right aligned single line">
+            <em>{{ studies.date }}</em>
+            <br/><small>{{ studies.place }}</small>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <div class="ui two column grid">
+      <div class="column">
+        <h4 class="ui dividing blue header">{{ data.langues-title }}</h4>
+        <table class="ui very basic very compact top aligned small table">
+          <tbody>
+            {% for langue in data.langues-list %}
+            <tr>
+              <td>
+                <strong>{{ langue.title }}</strong>
+                <br/><small>{{ langue.desc }}</small>
+              </td>
+              <td class="right aligned single line">
+                {% for i in (1..5) %}
+                  {% if i <= langue.note %}
+                    <i class="small circle icon"></i>
+                  {% else %}
+                    <i class="small circle thin icon"></i>
+                  {% endif %}
+                {% endfor %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <h4 class="ui dividing blue header">{{ data.competences-title }}</h4>
+        <table class="ui very basic very compact top aligned small table">
+          <tbody>
+            {% for competence in data.competences-list %}
+            <tr>
+              <td>{{ competence.name}}</td>
+              <td class="right aligned single line">
+                {% for i in (1..5) %}
+                  {% if i <= competence.note %}
+                    <i class="small circle icon"></i>
+                  {% else %}
+                    <i class="small circle thin icon"></i>
+                  {% endif %}
+                {% endfor %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h4 class="ui dividing blue header">{{ data.hobbies-title }}</h4>
+    <table class="ui five column very basic very compact celled small table">
+      <tbody>
+        <tr class="center aligned">
+          {% for hobby in data.hobbies-list %}
+          <td class="item">{{ hobby.name }}</td>
+          {% endfor %}
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</body>
+
+</html>
