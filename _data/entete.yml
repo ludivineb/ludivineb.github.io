@@ -1,0 +1,10 @@
+name: Daniel Caspar
+title: Gestionnaire de produits et de projets informatiques
+
+contact_info:
+- title  : État civil
+  content: {"29 ans, Célibataire", "Nationalité française"}
+- title  : Adresse
+  content: {"7 rue de la fontaine", "67490 Lupstein"}
+- title  : Contact
+  content: {"daniel.caspar@hotmail.com", "07.83.76.78.11"}
