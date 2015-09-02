@@ -176,8 +176,8 @@
         {% for hobby in cv_hobbies.list %}
         <tr>
           <td>
-            <strong>{{ hobby.name }}</strong> <br/>
-            <div class="ui small bulleted list">
+            {{ hobby.name }}<br/>
+            <div class="ui tiny bulleted list">
               {% for item in hobby.list %}
               <div class="item">
                 {{ item }}
