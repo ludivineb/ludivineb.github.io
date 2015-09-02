@@ -1,58 +1,49 @@
 title: Expérience
 list:
-- title  : PVTiste
-  compagn:
-  date   : Janvier 2015 – Juillet 2015
-  place  : Nouvelle-Zélande
+- title  : Chef de projet – Réforme du programme de la Faculté de Médecine
+  compagn: Université de Montréal
+  date   : Janvier 2013 – Décembre 2014
+  place  : Montéal (Canada)
   list  :
-  - name: "Programme Vacances-Travail (PVT) : "
+  - name: "Rôles et responsabilités : "
     items:
-    - name: Planifier et résoudre les problèmes au jour le jour
-    - name: Perfectionner l'anglais
-- title: Product Owner - Public Cloud
-  compagn: Internap / iWeb
-  date : Juillet 2011 – Décembre 2014
+    - name: Réaliser une étude comparative des programmes des 17 Facultés de Médecine au Canada
+    - name: Utiliser ces données et animer des groupes de discussion avec les membres des comités de direction afin de réformer en profondeur la formation des médecins 
+    - name: Implanter un nouveau programme d’études médicales visant à développer chez les futurs médecins les compétences nécessaires pour répondre aux besoins populationnels prioritaires
+- title: Analyste d’affaires
+  compagn: RH Conseil, cabinet spécialisé en gestion des Ressources Humaines
+  date : Octobre 2012 – Juin 2013
   place: Montréal (Canada)
   list:
   - name: "Rôles et responsabilités : "
     items:
-    - name: Connaitre et communiquer la vision du produit, le marché, les clients et la compétition
-    - name: Prendre les décisions reliées à son produit et maintenir les items du Product Backlog
-    - name: Représenter les clients internes et externes face aux équipes de développement en travaillant étroitement avec celles-ci
-    - name: Communiquer l'avancement et la rentabilité de son produit face aux parties prenantes
-  - name: "Principaux projets réalisés : "
-    items:
-    - name: Lancement, avec programme de beta, des serveurs cloud pour iWeb basés sur l'hyperviseur Xen
-    - name: Lancement, avec programmes de beta, des serveurs cloud Openstack AgileCLOUD pour Internap et iWeb
-    - name: "Amélioration de l'offre cloud: Volume Snapshots, OS Windows, Block Storage"
-    - name: Mise en place de la facturation cloud à l'usage
-    - name: Lancement du produit de stockage object Openstack
-- title: Analyste d'affaires / Chargé de projet
-  compagn: iWeb
-  date : Juillet 2010 – Juin 2011
+    - name: Réaliser des diagnostics de besoins de formation dans l’industrie maritime et audiovisuel impliquant la création d’un sondage en ligne et la préparation ainsi que la conduite d’entrevues 
+    - name: Présenter les résultats au conseil d’administration
+- title: Consultante en management – Transformations organisationnelles
+  compagn: Proaction, conseil en gestion et en productivité des Ressources Humaines
+  date : Août 2012 – Octobre 2012
   place: Montréal (Canada)
   list  :
   - name: "Rôles et responsabilités : "
     items:
-    - name: Représenter le client et développer les besoins d'affaires
-    - name: Suivre et coordonner les projets (définition des besoins, analyse, développement logiciel, formation, commercialisation, capitalisation)
-  - name: "Principaux projets réalisés : "
-    items:
-    - name: Lancement et amélioration de la gamme de serveurs dédiés Smart
-    - name: Nouveau panneau de contrôle en ligne "iWeb Control Center"
-- title: Technicien informatique
-  compagn: École Polytechnique de Montréal
-  date : Mars 2009 – Décembre 2010
+    - name: Construire une relation de confiance avec les gestionnaires, les employés et les membres de la direction 
+    - name: Analyser les outils de contrôle de volume et de pilotage dans une grande entreprise manufacturière 
+    - name: Coacher les gestionnaires pour améliorer leurs pratiques de gestion
+- title: Consultante externe - Commercialisation de produits alimentaires
+  compagn: M sur Masson, restaurant
+  date : Janvier 2012 – Juin 2012
   place: Montréal (Canada)
   list  :
   - name: "Rôles et responsabilités : "
     items:
-    - name: Soutien technique de la plateforme d'apprentissage en ligne Moodle de l'Ecole Polytechnique de Montréal
-- title: Développeur C#
-  compagn: SD-Technologies GmbH
-  date : Mars 2008 – Août 2008
-  place: Ulm (Allemagne)
+    - name: Elaborer un plan d’actions pour atteindre les objectifs fixés en collaboration avec le client 
+    - name: Développer des outils permettant l’évaluation des résultats qualitatifs et quantitatifs
+- title: Chargée de Projet au CCM (Club de Consultation en Management)
+  compagn: Mandat d’accompagnement pour Exeko, organisation en développement de projets responsables 
+  date : Octobre 2010 – Avril 2011
+  place: Montréal (Canada)
   list  :
-  - name: "Projet de fin d'études : "
+  - name: "Rôles et responsabilités : "
     items:
-    - name: Analyse et conception d'un logiciel en C# pour l'analyse et la réparation de fichiers Microsoft Windows Installer
+    - name: Coordonner une équipe de quatre personnes 
+    - name: Organiser et animer des ateliers pour accompagner l’organisation dans l’implantation des solutions proposées
