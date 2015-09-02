@@ -1,0 +1,58 @@
+title: Expérience
+list:
+- title  : PVTiste
+  compagn:
+  date   : Janvier 2015 – Juillet 2015
+  place  : Nouvelle-Zélande
+  list  :
+  - name: "Programme Vacances-Travail (PVT) : "
+    items:
+    - name: Planifier et résoudre les problèmes au jour le jour
+    - name: Perfectionner l'anglais
+- title: Product Owner - Public Cloud
+  compagn: Internap / iWeb
+  date : Juillet 2011 – Décembre 2014
+  place: Montréal (Canada)
+  list:
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Connaitre et communiquer la vision du produit, le marché, les clients et la compétition
+    - name: Prendre les décisions reliées à son produit et maintenir les items du Product Backlog
+    - name: Représenter les clients internes et externes face aux équipes de développement en travaillant étroitement avec celles-ci
+    - name: Communiquer l'avancement et la rentabilité de son produit face aux parties prenantes
+  - name: "Principaux projets réalisés : "
+    items:
+    - name: Lancement, avec programme de beta, des serveurs cloud pour iWeb basés sur l'hyperviseur Xen
+    - name: Lancement, avec programmes de beta, des serveurs cloud Openstack AgileCLOUD pour Internap et iWeb
+    - name: "Amélioration de l'offre cloud: Volume Snapshots, OS Windows, Block Storage"
+    - name: Mise en place de la facturation cloud à l'usage
+    - name: Lancement du produit de stockage object Openstack
+- title: Analyste d'affaires / Chargé de projet
+  compagn: iWeb
+  date : Juillet 2010 – Juin 2011
+  place: Montréal (Canada)
+  list  :
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Représenter le client et développer les besoins d'affaires
+    - name: Suivre et coordonner les projets (définition des besoins, analyse, développement logiciel, formation, commercialisation, capitalisation)
+  - name: "Principaux projets réalisés : "
+    items:
+    - name: Lancement et amélioration de la gamme de serveurs dédiés Smart
+    - name: Nouveau panneau de contrôle en ligne "iWeb Control Center"
+- title: Technicien informatique
+  compagn: École Polytechnique de Montréal
+  date : Mars 2009 – Décembre 2010
+  place: Montréal (Canada)
+  list  :
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Soutien technique de la plateforme d'apprentissage en ligne Moodle de l'Ecole Polytechnique de Montréal
+- title: Développeur C#
+  compagn: SD-Technologies GmbH
+  date : Mars 2008 – Août 2008
+  place: Ulm (Allemagne)
+  list  :
+  - name: "Projet de fin d'études : "
+    items:
+    - name: Analyse et conception d'un logiciel en C# pour l'analyse et la réparation de fichiers Microsoft Windows Installer
