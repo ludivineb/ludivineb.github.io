@@ -84,6 +84,24 @@
     </table>
     {% endfor %}
 
+    <h4 class="ui dividing blue header">{{ cv_studies.title }}</h4>
+    <table class="ui very basic very compact small table">
+      <tbody>
+        {% for studies in cv_studies.list %}
+        <tr>
+          <td>
+            <strong>{{ studies.school }}</strong>
+            <br/>{{ studies.diplome }}
+          </td>
+          <td class="right aligned single line">
+            <em>{{ studies.date }}</em>
+            <br/><small>{{ studies.place }}</small>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    
     <h4 class="ui dividing blue header">{{ cv_langues.title }}</h4>
     <table class="ui very basic very compact top aligned small table">
       <tbody>
@@ -101,24 +119,6 @@
                 <i class="small circle thin icon"></i>
               {% endif %}
             {% endfor %}
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-
-    <h4 class="ui dividing blue header">{{ cv_studies.title }}</h4>
-    <table class="ui very basic very compact small table">
-      <tbody>
-        {% for studies in cv_studies.list %}
-        <tr>
-          <td>
-            <strong>{{ studies.school }}</strong>
-            <br/>{{ studies.diplome }}
-          </td>
-          <td class="right aligned single line">
-            <em>{{ studies.date }}</em>
-            <br/><small>{{ studies.place }}</small>
           </td>
         </tr>
         {% endfor %}
