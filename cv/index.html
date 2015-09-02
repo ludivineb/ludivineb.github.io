@@ -180,6 +180,33 @@
         </tr>
       </tbody>
     </table>
+    
+    {% for hobby in cv_hobbies.list %}
+    <table class="ui very basic very compact small table">
+      <tbody>
+        <tr>
+          <td>
+            <strong>{{ hobby.name }}</strong>
+          </td>
+          <td class="right aligned">
+            <em>{{ hobby.date }}</em>
+            <br/><small>{{ hobby.place }}</small>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="ui small list">
+              {% for item in hobby.list %}
+              <div class="item">
+                {{ item.name }}
+              </div>
+              {% endfor %}
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    {% endfor %}
 
   </div>
 </body>
