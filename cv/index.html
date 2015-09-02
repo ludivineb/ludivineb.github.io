@@ -133,7 +133,7 @@
             {% for competence in cv_competences.list %}
             <tr>
               <td>{{ competence.name}}</td>
-              <td class="right aligned single line">
+              <td class="right aligned top aligned single line">
                 {% for i in (1..5) %}
                   {% if i <= competence.note %}
                     <i class="small circle icon"></i>
