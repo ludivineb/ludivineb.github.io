@@ -68,7 +68,7 @@
                 <div class="content">
                   {{ section.name }}
                 </div>
-                <div class="bulleted list">
+                <div class="ui bulleted list">
                   {% for item in section.items %}
                   <div class="item">
                     <div class="content">{{ item.name }}</div>
@@ -177,10 +177,10 @@
         <tr>
           <td>
             <strong>{{ hobby.name }}</strong> <br/>
-            <div class="ui small bulleted list">
+            <div class="ui small list">
               {% for item in hobby.list %}
               <div class="item">
-                {{ item }}
+                - {{ item }}
               </div>
               {% endfor %}
             </div>
