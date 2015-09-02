@@ -171,16 +171,6 @@
     </div>
 
     <h4 class="ui dividing blue header">{{ cv_hobbies.title }}</h4>
-    <table class="ui four column very basic very compact celled small table">
-      <tbody>
-        <tr class="center aligned">
-          {% for hobby in cv_hobbies.list %}
-          <td class="item">{{ hobby.name }}</td>
-          {% endfor %}
-        </tr>
-      </tbody>
-    </table>
-    
     {% for hobby in cv_hobbies.list %}
     <table class="ui very basic very compact small table">
       <tbody>
