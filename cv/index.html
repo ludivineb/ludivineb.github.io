@@ -171,20 +171,12 @@
     </div>
 
     <h4 class="ui dividing blue header">{{ cv_hobbies.title }}</h4>
-    <table class="ui very basic very compact small table">
+    <table class="ui very basic very compact top aligned small table">
       <tbody>
         {% for hobby in cv_hobbies.list %}
         <tr>
           <td>
-            <strong>{{ hobby.name }}</strong>
-          </td>
-          <td class="right aligned single line">
-            <em>{{ hobby.date }}</em>
-            <br/><small>{{ hobby.place }}</small>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
+            <strong>{{ hobby.name }}</strong> <br/>
             <div class="ui small list">
               {% for item in hobby.list %}
               <div class="item">
@@ -192,6 +184,10 @@
               </div>
               {% endfor %}
             </div>
+          </td>
+          <td class="right aligned single line">
+            <em>{{ hobby.date }}</em>
+            <br/><small>{{ hobby.place }}</small>
           </td>
         </tr>
         {% endfor %}
