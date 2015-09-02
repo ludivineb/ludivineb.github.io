@@ -3,7 +3,7 @@ list:
 - name: PVT (Permis Vacances-Travail) 
   place: Nouvelle-Zélande
   date: Janvier 2015 - juillet 2015 
-  description:
+  list:
   - WWOOFing (World Wide opportunities on Organic Farms) voyage sur le volontariat 
   - Mettre en pratique les techniques vues lors de mon certificat en permaculture (agro-écologie) obtenu en mars 2013 
 - name: VP du comité culinaire de l’AEMD (Association des Etudiants de Maîtrise et de Doctorat) en 
