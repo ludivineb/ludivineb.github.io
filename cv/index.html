@@ -177,7 +177,7 @@
         <tr>
           <td>
             <strong>{{ hobby.name }}</strong> <br/>
-            <div class="ui small list">
+            <div class="ui small bulleted list">
               {% for item in hobby.list %}
               <div class="item">
                 - {{ item }}
@@ -185,7 +185,7 @@
               {% endfor %}
             </div>
           </td>
-          <td class="right aligned single line">
+          <td class="right aligned top aligned single line">
             <em>{{ hobby.date }}</em>
             <br/><small>{{ hobby.place }}</small>
           </td>
