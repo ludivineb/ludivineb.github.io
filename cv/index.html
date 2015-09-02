@@ -2,7 +2,14 @@
 ---
 
 {% assign entete = site.data.entete %}
-{% assign data = site.data.cv %}
+
+{% assign cv_resume = site.data.cv_resume %}
+{% assign cv_experience = site.data.cv_experience %}
+{% assign cv_certifications = site.data.cv_certifications %}
+{% assign cv_studies = site.data.cv_studies %}
+{% assign cv_langues = site.data.cv_langues %}
+{% assign cv_competences = site.data.cv_competences %}
+{% assign cv_hobbies = site.data.cv_hobbies %}
 
 <html style="font-size: 0.79em">
 
@@ -37,10 +44,10 @@
     </div>
 
     <h3 class="ui dividing header" style="color: #006AC2">{{ entete.title }}</h3>
-    <p align="justify"><small>{{ data.resume-content }}</small></p>
+    <p align="justify"><small>{{ cv_resume.content }}</small></p>
 
-    <h4 class="ui dividing blue header">{{ data.experience-title }}</h4>
-    {% for experience in data.experience-list %}
+    <h4 class="ui dividing blue header">{{ cv_experience.title }}</h4>
+    {% for experience in cv_experience.list %}
     <table class="ui very basic very compact small table">
       <tbody>
         <tr>
@@ -77,10 +84,10 @@
     </table>
     {% endfor %}
 
-    <h4 class="ui dividing blue header">{{ data.certification-title }}</h4>
+    <h4 class="ui dividing blue header">{{ cv_certifications.title }}</h4>
     <table class="ui very basic very compact small table">
       <tbody>
-        {% for certification in data.certification-list %}
+        {% for certification in cv_certifications.list %}
         <tr>
           <td>
             <strong>{{ certification.title }}</strong>
@@ -95,10 +102,10 @@
       </tbody>
     </table>
 
-    <h4 class="ui dividing blue header">{{ data.studies-title }}</h4>
+    <h4 class="ui dividing blue header">{{ cv_studies.title }}</h4>
     <table class="ui very basic very compact small table">
       <tbody>
-        {% for studies in data.studies-list %}
+        {% for studies in cv_studies.list %}
         <tr>
           <td>
             <strong>{{ studies.school }}</strong>
@@ -115,10 +122,10 @@
 
     <div class="ui two column grid">
       <div class="column">
-        <h4 class="ui dividing blue header">{{ data.langues-title }}</h4>
+        <h4 class="ui dividing blue header">{{ cv_langues.title }}</h4>
         <table class="ui very basic very compact top aligned small table">
           <tbody>
-            {% for langue in data.langues-list %}
+            {% for langue in cv_langues.list %}
             <tr>
               <td>
                 <strong>{{ langue.title }}</strong>
@@ -139,10 +146,10 @@
         </table>
       </div>
       <div class="column">
-        <h4 class="ui dividing blue header">{{ data.competences-title }}</h4>
+        <h4 class="ui dividing blue header">{{ cv_competences.title }}</h4>
         <table class="ui very basic very compact top aligned small table">
           <tbody>
-            {% for competence in data.competences-list %}
+            {% for competence in cv_competences.list %}
             <tr>
               <td>{{ competence.name}}</td>
               <td class="right aligned single line">
@@ -161,11 +168,11 @@
       </div>
     </div>
 
-    <h4 class="ui dividing blue header">{{ data.hobbies-title }}</h4>
-    <table class="ui five column very basic very compact celled small table">
+    <h4 class="ui dividing blue header">{{ cv_hobbies.title }}</h4>
+    <table class="ui four column very basic very compact celled small table">
       <tbody>
         <tr class="center aligned">
-          {% for hobby in data.hobbies-list %}
+          {% for hobby in cv_hobbies.list %}
           <td class="item">{{ hobby.name }}</td>
           {% endfor %}
         </tr>
