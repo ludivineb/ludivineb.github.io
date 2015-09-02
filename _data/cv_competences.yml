@@ -1,14 +1,22 @@
 title: Compétences
 list:
-- name: Gestion de Projet Agile
-  note: 5
-- name: Cloud Computing
-  note: 5
-- name: Gestion de Produit
-  note: 4
-- name: Hébergement Web
-  note: 4
-- name: Développement Web (Meteor)
-  note: 3
-- name: Développement Python (Django)
-  note: 3
+- name: Gestion de projet
+  note: 1
+- name: Gestion du changement
+  note: 1
+- name: Design organisationnel
+  note: 1
+- name: Gestion des organisations multiculturelles
+  note: 1
+- name: Capacité rédactionnelle
+  note: 1
+- name: Créativité
+  note: 2
+- name: Adaptation
+  note: 2
+- name: Proactivité
+  note: 2
+- name: Esprit d’équipe
+  note: 2
+- name: Habileté communicationnelle
+  note: 2
