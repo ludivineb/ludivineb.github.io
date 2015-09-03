@@ -193,6 +193,27 @@
         {% endfor %}
       </tbody>
     </table>
+    
+    {% for hobby in cv_hobbies.list %}
+    <div class="ui card">
+      <div class="content">
+        <div class="header">{{ hobby.name }}</div>
+        <div class="meta">{{hobby.date}} - {{hobby.place}}</div>
+        <div class="content">
+          <div class="ui tiny bulleted list">
+              {% for item in hobby.list %}
+              <div class="item">
+                {{ item }}
+              </div>
+              {% endfor %}
+            </div>
+        </div>
+      </div>
+      <div class="extra content">
+        ...
+      </div>
+    </div>
+    {% endfor %}
 
   </div>
 </body>
