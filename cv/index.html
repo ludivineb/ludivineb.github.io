@@ -95,7 +95,9 @@
         <tr>
           <td>
             <strong>{{ studies.school }}</strong>
-            <br/>{{ studies.diplome }}
+            {% for item in studies.diplome %}
+            <br/>{{ item }}
+            {% endfor %}
           </td>
           <td class="right aligned single line">
             <em>{{ studies.date }}</em>
