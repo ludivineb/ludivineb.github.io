@@ -171,15 +171,27 @@
     </div>
 
     <h4 class="ui dividing blue header">{{ cv_hobbies.title }}</h4>
-    <div class="ui relaxed horizontal divided list">
-      {% for hobby in cv_hobbies.list %}
-      <div class="item">
-        <div class="top aligned content">
-          <div class="header">{{ hobby.title }}</div>
-          <div class="description">{{ hobby.description }}</div>
+    <div class="two column grid">
+      <div class="column">
+        {% for hobby in cv_hobbies.list %}
+        <div class="item">
+          <div class="top aligned content">
+            <div class="header">{{ hobby.title }}</div>
+            <div class="description">{{ hobby.description }}</div>
+          </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
+      <div class="column">
+        {% for hobby in cv_hobbies.list %}
+        <div class="item">
+          <div class="top aligned content">
+            <div class="header">{{ hobby.title }}</div>
+            <div class="description">{{ hobby.description }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
 
   </div>
