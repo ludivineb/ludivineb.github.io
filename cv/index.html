@@ -176,25 +176,33 @@
         <table class="ui very basic very compact top aligned small table">
           <tbody>
             {% for hobby in cv_hobbies.list %}
+            {% if hobby.colonne == 1 %}
             <tr>
               <td>
                 <strong>{{ hobby.title }}</strong>
                 <br/><small>{{ hobby.desc }}</small>
               </td>
             </tr>
+            {% endif %}
             {% endfor %}
           </tbody>
         </table>
       </div>
       <div class="column">
-        {% for hobby in cv_hobbies.list %}
-        <div class="item">
-          <div class="top aligned content">
-            <div class="header">{{ hobby.title }}</div>
-            <div class="description">{{ hobby.description }}</div>
-          </div>
-        </div>
-        {% endfor %}
+        <table class="ui very basic very compact top aligned small table">
+          <tbody>
+            {% for hobby in cv_hobbies.list %}
+            {% if hobby.colonne == 2 %}
+            <tr>
+              <td>
+                <strong>{{ hobby.title }}</strong>
+                <br/><small>{{ hobby.desc }}</small>
+              </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
     </div>
 
