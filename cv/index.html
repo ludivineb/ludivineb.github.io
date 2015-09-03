@@ -171,26 +171,12 @@
     </div>
 
     <h4 class="ui dividing blue header">{{ cv_hobbies.title }}</h4>
-    <div class="ui grid">
+    <div class="ui relaxed horizontal divided list">
       {% for hobby in cv_hobbies.list %}
-      <div class="eight wide column">
-        <div class="ui card">
-          <div class="content">
-            <div class="header">{{ hobby.name }}</div>
-            <div class="meta">{{hobby.place}}</div>
-            <div class="description">
-              <div class="ui tiny bulleted list">
-                  {% for item in hobby.list %}
-                  <div class="item">
-                    {{ item }}
-                  </div>
-                  {% endfor %}
-                </div>
-            </div>
-          </div>
-          <div class="extra content">
-            {{ hobby.date }}
-          </div>
+      <div class="item">
+        <div class="top aligned content">
+          <div class="header">{{ hobby.title }}</div>
+          <div class="description">{{ hobby.description }}</div>
         </div>
       </div>
       {% endfor %}
