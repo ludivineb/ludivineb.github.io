@@ -196,7 +196,9 @@
             <tr>
               <td>
                 <strong>{{ hobby.title }}</strong>
+                {% if hobby.description %}
                 <br/><small>{{ hobby.description }}</small>
+                {% endif %}
               </td>
             </tr>
             {% endif %}
