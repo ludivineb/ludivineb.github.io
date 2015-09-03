@@ -195,22 +195,24 @@
     </table>
     
     {% for hobby in cv_hobbies.list %}
-    <div class="four wide ui card">
-      <div class="content">
-        <div class="header">{{ hobby.name }}</div>
-        <div class="meta">{{hobby.place}}</div>
-        <div class="description">
-          <div class="ui tiny bulleted list">
-              {% for item in hobby.list %}
-              <div class="item">
-                {{ item }}
+    <div class="four wide column">
+      <div class="ui card">
+        <div class="content">
+          <div class="header">{{ hobby.name }}</div>
+          <div class="meta">{{hobby.place}}</div>
+          <div class="description">
+            <div class="ui tiny bulleted list">
+                {% for item in hobby.list %}
+                <div class="item">
+                  {{ item }}
+                </div>
+                {% endfor %}
               </div>
-              {% endfor %}
-            </div>
+          </div>
         </div>
-      </div>
-      <div class="extra content">
-        {{ hobby.date }}
+        <div class="extra content">
+          {{ hobby.date }}
+        </div>
       </div>
     </div>
     {% endfor %}
