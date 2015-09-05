@@ -68,20 +68,10 @@
           <td colspan="2">
             <div class="ui small list">
               {% if experience.objectif %}
-                <div class="item">
-                  <div class="content">Objectif : </div>
-                  <div class="ui bulleted list">
-                    <div class="item">
-                      {{ experience.objectif }}
-                    </div>
-                  </div>
-                </div>
+                <div class="item">Objectif : {{ experience.objectif }}</div>
               {% endif %}
               {% for section in experience.list %}
               <div class="item">
-                <div class="content">
-                  {{ section.name }}
-                </div>
                 <div class="ui bulleted list">
                   {% for item in section.items %}
                   <div class="item">
@@ -92,15 +82,10 @@
               </div>
               {% endfor %}
               {% if experience.reference-name %}
-              <div class="item">
-                <div class="content">Référence : </div>
-                <div class="ui bulleted list">
-                  <div class="item">
-                    {{ experience.reference-name}},
-                    {{ experience.reference-title }}
-                    (<a href="mailto:{{experience.reference-email}}">{{ experience.reference-email}}</a>)
-                  </div>
-                </div>
+              <div class="item">Référence :
+                {{ experience.reference-name}},
+                {{ experience.reference-title }}
+                (<a href="mailto:{{experience.reference-email}}">{{ experience.reference-email}}</a>)
               </div>
               {% endif %}
             </div>
