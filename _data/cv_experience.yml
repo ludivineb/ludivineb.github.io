@@ -39,11 +39,13 @@ list:
   compagn: Proaction, conseil en gestion de la productivité des Ressources Humaines
   date : Août 2012 – Octobre 2012
   place: Montréal (Canada)
+  projets :
+  - name: Améliorer la performance d'une grande entreprise manufacturière québécoise
   list  :
   - name: "Rôles et responsabilités : "
     items:
     - name: Construire une relation de confiance avec les gestionnaires, les employés et les membres de la direction
-    - name: Analyser les outils de contrôle de volume et de pilotage dans une grande entreprise manufacturière
+    - name: Analyser les outils de contrôle, de volume et de pilotage
     - name: Coacher les gestionnaires pour améliorer leurs pratiques de gestion
   reference-name: Marc-Antoine Coutu
   reference-title: Consultant Sénior
