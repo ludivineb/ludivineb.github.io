@@ -86,7 +86,10 @@
               {% endfor %}
             </div>
             {% if experience.reference-name %}
-              <div>Référence : {{ experience.reference-name}}, {{ experience.reference-title }} ({{ experience.reference-email}})</div>
+              <div>Référence :
+                {{ experience.reference-name}},
+                {{ experience.reference-title }},
+                <a href="mailto:{{experience.reference-email}}">{{ experience.reference-email}})</a>
             {% endif %}
           </td>
         </tr>
