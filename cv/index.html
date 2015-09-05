@@ -67,7 +67,10 @@
         <tr>
           <td colspan="2">
             {% if experience.objectif %}
-            <div class=""><em><u>Objectif :</u> {{ experience.objectif }}</em></div>
+            <div class=""><u>Objectif :</u> {{ experience.objectif }}</div>
+            {% endif %}
+            {% if experience.reference-name %}
+            <div>Référence : {{ experience.reference-name}}, {{ experience.reference-title }}</small></div>
             {% endif %}
             <div class="ui small list">
               {% for section in experience.list %}
@@ -85,10 +88,6 @@
               </div>
               {% endfor %}
             </div>
-            {% if experience.reference-name %}
-            <div>Référence : {{ experience.reference-name}} <small>({{ experience.reference-title }})</small></div>
-            </div>
-            {% endif %}
           </td>
         </tr>
       </tbody>
