@@ -70,7 +70,11 @@
               {% if experience.objectif %}
                 <div class="item">Objectif :
                   <div class="content">Objectifs : </div>
-                  <div class="ui bulleted list">{{ experience.objectif }}</div>
+                  <div class="ui bulleted list">
+                    <div class="item">
+                      {{ experience.objectif }}
+                    </div>
+                  </div>
                 </div>
               {% endif %}
               {% for section in experience.list %}
@@ -88,10 +92,15 @@
               </div>
               {% endfor %}
               {% if experience.reference-name %}
-              <div class="item">Référence :
-                {{ experience.reference-name}},
-                {{ experience.reference-title }}
-                (<a href="mailto:{{experience.reference-email}}">{{ experience.reference-email}}</a>)
+              <div class="item">
+                <div class="content">Référence : </div>
+                <div class="ui bulleted list">
+                  <div class="item">
+                    {{ experience.reference-name}},
+                    {{ experience.reference-title }}
+                    (<a href="mailto:{{experience.reference-email}}">{{ experience.reference-email}}</a>)
+                  </div>
+                </div>
               </div>
               {% endif %}
             </div>
