@@ -9,9 +9,10 @@ list:
   - name: "Rôles et responsabilités : "
     items:
     - name: Réaliser une étude comparative des programmes des 17 Facultés de Médecine au Canada
-    - name: Utiliser ces données et animer des groupes de discussion avec les membres des comités de direction afin de réformer en profondeur la formation des médecins
-    - name: Implanter un nouveau programme d’études médicales visant à développer chez les futurs médecins les compétences nécessaires pour répondre aux besoins populationnels prioritaires
-    - name: Développer des outils permettant l’évaluation des résultats qualitatifs et quantitatifs
+    - name: Animer des groupes de discussion avec les membres des comités de direction
+    - name: Co-créer la nouvelle structure du programme de Médecine
+    - name: Implanter le modèle retenu
+    - name: Développer  indicateurs permettant l’évaluation des résultats qualitatifs et quantitatifs
   reference-name: Réjean Duplain
   reference-title: Vice-doyen associé de la Faculté de Médécine
   reference-email: "rejean.duplain@umontreal.ca"
