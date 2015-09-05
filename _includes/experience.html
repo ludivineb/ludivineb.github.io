@@ -1,0 +1,46 @@
+{% assign cv_experience = site.data.cv_experience %}
+
+<h4 class="ui dividing blue header">{{ cv_experience.title }}</h4>
+{% for experience in cv_experience.list %}
+<table class="ui very basic very compact small table">
+  <tbody>
+    <tr>
+      <td>
+        <strong>{{ experience.title }}</strong>
+        <br/>{{ experience.compagn }}
+      </td>
+      <td class="right aligned">
+        <em>{{ experience.date }}</em>
+        <br/><small>{{ experience.place }}</small>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="ui small list">
+          {% if experience.projet %}
+            <div class="item">Projet : {{ experience.projet }}</div>
+          {% endif %}
+          {% for section in experience.list %}
+          <div class="item">
+            <div class="ui bulleted list">
+              {% for item in section.items %}
+              <div class="item">
+                <div class="content">{{ item.name }}</div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+          {% if experience.reference-name %}
+          <div class="item">Référence :
+            {{ experience.reference-name}},
+            {{ experience.reference-title }}
+            (<a href="mailto:{{experience.reference-email}}">{{ experience.reference-email}}</a>)
+          </div>
+          {% endif %}
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endfor %}

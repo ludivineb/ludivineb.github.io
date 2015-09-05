@@ -1,0 +1,21 @@
+{% assign cv_competences_interpersonnelles = site.data.cv_competences_interpersonnelles %}
+
+<h4 class="ui dividing blue header">{{ cv_competences_interpersonnelles.title }}</h4>
+<table class="ui very basic very compact small table">
+  <tbody>
+    {% for competence in cv_competences_interpersonnelles.list %}
+        <tr>
+          <td>{{ competence.name}}</td>
+          <td class="right aligned single line">
+            {% for i in (1..5) %}
+              {% if i <= competence.note %}
+                <i class="small circle icon"></i>
+              {% else %}
+                <i class="small circle thin icon"></i>
+              {% endif %}
+            {% endfor %}
+          </td>
+        </tr>
+        {% endfor %}
+  </tbody>
+</table>
