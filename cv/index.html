@@ -1,8 +1,6 @@
 ---
 ---
 
-{% assign entete = site.data.entete %}
-
 {% assign cv_resume = site.data.cv_resume %}
 {% assign cv_experience = site.data.cv_experience %}
 {% assign cv_competences_interpersonnelles = site.data.cv_competences_interpersonnelles %}
@@ -21,27 +19,7 @@
 <body>
   <div class="ui text container">
 
-    <div class="ui grid">
-      <div class="middle aligned row">
-        <div class="left floated five wide column">
-          <h1 class="ui header">{{ entete.name }}</h1>
-        </div>
-        <div class="right floated nine wide column">
-          <div class="ui tiny divided horizontal list">
-            {% for contact in entete.contact_info %}
-            <div class="item">
-              <div class="content">
-                <div class="header">{{ contact.title }}</div>
-                {% for content in contact.content %}
-                <div class="description">{{ content }}</div>
-                {% endfor %}
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    </div>
+    {% include entete.html %}
 
     <br/>
 
