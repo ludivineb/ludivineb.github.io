@@ -17,8 +17,10 @@
     <tr>
       <td colspan="2">
         <div class="ui small list">
-          {% if experience.projet %}
-            <div class="item">Projet : {{ experience.projet }}</div>
+          {% if experience.projets %}
+            {% for projet in experience.projets %}
+            <div class="item">Projet {{ projet.numero }} : {{ projet.name }}</div>
+            {% endfor %}
           {% endif %}
           {% for section in experience.list %}
           <div class="item">

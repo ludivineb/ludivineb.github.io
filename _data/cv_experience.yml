@@ -4,7 +4,9 @@ list:
   compagn: Université de Montréal
   date   : Janvier 2013 – Décembre 2014
   place  : Montréal (Canada)
-  projet : Réformer la formation des futurs Médecins avec l'approche par compétences
+  projets :
+  - name: Réformer la formation des futurs Médecins avec l'approche par compétences
+    numero: 1
   list  :
   - name: "Rôles et responsabilités : "
     items:
@@ -20,7 +22,11 @@ list:
   compagn: RH Conseil, cabinet spécialisé en gestion des Ressources Humaines
   date : Octobre 2012 – Avril 2013
   place: Montréal (Canada)
-  projet: Réaliser 2 diagnostics de besoins de formation dans l’industrie maritime et audiovisuel
+  projet:
+  - name: Réaliser un diagnostic de besoins de formation dans l’industrie audiovisuel
+    numero: 1
+  - name: Réaliser une étude sur les problématiques des femmes dans l'industrie maritime
+    numero: 2
   list:
   - name: "Rôles et responsabilités : "
     items:
