@@ -19,7 +19,10 @@
         <div class="ui small list">
           {% if experience.projets %}
             {% for projet in experience.projets %}
-            <div class="item">Projet {{ projet.numero }} : {{ projet.name }}</div>
+            <div class="item">
+              Projet
+              {% if projet.numero %}{{ projet.numero }}{% endif %}
+              : {{ projet.name }}</div>
             {% endfor %}
           {% endif %}
           {% for section in experience.list %}
