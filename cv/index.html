@@ -85,12 +85,8 @@
               </div>
               {% endfor %}
             </div>
-            {% if experience.references %}
-            <div>Références : </div>
-            <div class="ui horizontal list">
-            {% for reference in experience.references %}
-              <div class="item">{{ reference.name}}<br/><small>{{ reference.title }}</small></div>
-            {% endfor %}
+            {% if experience.reference-name %}
+            <div>Références : {{ reference-name}} <small>{{ reference-title }}</small></div>
             </div>
             {% endif %}
           </td>
