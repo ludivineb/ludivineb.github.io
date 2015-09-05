@@ -4,11 +4,12 @@ list:
   compagn: Université de Montréal
   date   : Janvier 2013 – Décembre 2014
   place  : Montréal (Canada)
+  objectif: bla bla vla bla bla vla bla bla vla bla bla vla bla bla vla
   list  :
   - name: "Rôles et responsabilités : "
     items:
     - name: Réaliser une étude comparative des programmes des 17 Facultés de Médecine au Canada
-    - name: Utiliser ces données et animer des groupes de discussion avec les membres des comités de direction afin de réformer en profondeur la formation des médecins 
+    - name: Utiliser ces données et animer des groupes de discussion avec les membres des comités de direction afin de réformer en profondeur la formation des médecins
     - name: Implanter un nouveau programme d’études médicales visant à développer chez les futurs médecins les compétences nécessaires pour répondre aux besoins populationnels prioritaires
     - name: Développer des outils permettant l’évaluation des résultats qualitatifs et quantitatifs
 - title: Analyste d'Affaires Junior
@@ -19,7 +20,7 @@ list:
   - name: "Rôles et responsabilités : "
     items:
     - name: Élaborer un plan d’actions pour atteindre les objectifs fixés en collaboration avec le client
-    - name: Réaliser des diagnostics de besoins de formation dans l’industrie maritime et audiovisuel impliquant la création d’un sondage en ligne et la préparation ainsi que la conduite d’entrevues 
+    - name: Réaliser des diagnostics de besoins de formation dans l’industrie maritime et audiovisuel impliquant la création d’un sondage en ligne et la préparation ainsi que la conduite d’entrevues
     - name: Présenter les résultats au conseil d’administration
 - title: Consultante Junior en management – Transformations organisationnelles
   compagn: Proaction, conseil en gestion et en productivité des Ressources Humaines
@@ -28,8 +29,8 @@ list:
   list  :
   - name: "Rôles et responsabilités : "
     items:
-    - name: Construire une relation de confiance avec les gestionnaires, les employés et les membres de la direction 
-    - name: Analyser les outils de contrôle de volume et de pilotage dans une grande entreprise manufacturière 
+    - name: Construire une relation de confiance avec les gestionnaires, les employés et les membres de la direction
+    - name: Analyser les outils de contrôle de volume et de pilotage dans une grande entreprise manufacturière
     - name: Coacher les gestionnaires pour améliorer leurs pratiques de gestion
 - title: Conseillère clientèle professionnelle
   compagn: Crédit du Nord, institution bancaire
@@ -38,8 +39,8 @@ list:
   list  :
   - name: "Rôles et responsabilités : "
     items:
-    - name: Évaluer les besoins des clients professionnels et les conseiller sur la réalisation de leurs projets commerciaux 
-    - name: Former les dossiers de crédit, effectuer des opérations de placement et cartographier les risques clients 
+    - name: Évaluer les besoins des clients professionnels et les conseiller sur la réalisation de leurs projets commerciaux
+    - name: Former les dossiers de crédit, effectuer des opérations de placement et cartographier les risques clients
     - name: Identifier des occasions d’affaires puis développer, fidéliser et suivre les comptes clients
 - title: Responsable relation-producteurs de la région sud-est
   compagn: Regioneo.com, site de vente de produits alimentaires régionaux
@@ -48,5 +49,5 @@ list:
   list  :
   - name: "Rôles et responsabilités : "
     items:
-    - name: Contribuer au développement d’affaires de la start-up en négociant avec les futurs clients 
+    - name: Contribuer au développement d’affaires de la start-up en négociant avec les futurs clients
     - name: Coordonner l’organisation logistique de la force commerciale dans toute la région sud-est

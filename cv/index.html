@@ -47,7 +47,7 @@
 
     <h3 class="ui dividing header" style="color: #006AC2">{{ entete.title }}</h3>
     <p align="justify"><small>{{ cv_resume.content }}</small></p>
-  
+
     <br/>
 
     <h4 class="ui dividing blue header">{{ cv_experience.title }}</h4>
@@ -66,6 +66,9 @@
         </tr>
         <tr>
           <td colspan="2">
+            {% if experience.objectif %}
+            <div class=""><strong>Objectif : </strong> {{ experience.objectif }}</div>
+            {% endif %}
             <div class="ui small list">
               {% for section in experience.list %}
               <div class="item">
@@ -107,7 +110,7 @@
         {% endfor %}
       </tbody>
     </table>
-    
+
     <h4 class="ui dividing blue header">{{ cv_langues.title }}</h4>
     <table class="ui very basic very compact top aligned small table">
       <tbody>
