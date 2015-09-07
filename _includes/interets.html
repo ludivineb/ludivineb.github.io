@@ -1,16 +1,14 @@
-{% assign cv_hobbies = site.data.cv_hobbies %}
-
-<h4 class="ui dividing blue header">{{ cv_hobbies.title }}</h4>
+<h4 class="ui dividing blue header">{{ interets.title }}</h4>
 <div class="ui two column grid">
   <div class="column">
     <table class="ui very basic very compact top aligned small table">
       <tbody>
-        {% for hobby in cv_hobbies.list %}
-        {% if hobby.colonne == 1 %}
+        {% for interet in interets.list %}
+        {% if interet.colonne == 1 %}
         <tr>
           <td>
-            <strong>{{ hobby.title }}</strong>
-            <br/>{{ hobby.description }}
+            <strong>{{ interet.title }}</strong>
+            <br/>{{ interet.description }}
           </td>
         </tr>
         {% endif %}
@@ -21,13 +19,13 @@
   <div class="column">
     <table class="ui very basic very compact top aligned small table">
       <tbody>
-        {% for hobby in cv_hobbies.list %}
-        {% if hobby.colonne == 2 %}
+        {% for interet in interets.list %}
+        {% if interet.colonne == 2 %}
         <tr>
           <td>
-            <strong>{{ hobby.title }}</strong>
-            {% if hobby.description %}
-            <br/>{{ hobby.description }}
+            <strong>{{ interet.title }}</strong>
+            {% if interet.description %}
+            <br/>{{ interet.description }}
             {% endif %}
           </td>
         </tr>

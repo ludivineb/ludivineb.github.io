@@ -1,9 +1,7 @@
-{% assign cv_competences_interpersonnelles = site.data.cv_competences_interpersonnelles %}
-
-<h4 class="ui dividing blue header">{{ cv_competences_interpersonnelles.title }}</h4>
+<h4 class="ui dividing blue header">{{ competences_inter.title }}</h4>
 <table class="ui very basic very compact small table">
   <tbody>
-    {% for competence in cv_competences_interpersonnelles.list %}
+    {% for competence in cv_competences_inter.list %}
         <tr>
           <td>{{ competence.name}}</td>
           <td class="right aligned single line">

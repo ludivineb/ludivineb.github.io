@@ -1,7 +1,5 @@
-{% assign cv_experience = site.data.cv_experience %}
-
-<h4 class="ui dividing blue header">{{ cv_experience.title }}</h4>
-{% for experience in cv_experience.list %}
+<h4 class="ui dividing blue header">{{ experience.title }}</h4>
+{% for experience in experience.list %}
 <table class="ui very basic very compact small table">
   <tbody>
     <tr>

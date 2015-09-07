@@ -1,9 +1,7 @@
-{% assign cv_langues = site.data.cv_langues %}
-
-<h4 class="ui dividing blue header">{{ cv_langues.title }}</h4>
+<h4 class="ui dividing blue header">{{ langues.title }}</h4>
 <table class="ui very basic very compact top aligned small table">
   <tbody>
-    {% for langue in cv_langues.list %}
+    {% for langue in langues.list %}
     <tr>
       <td>
         <strong>{{ langue.title }}</strong>

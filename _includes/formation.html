@@ -1,0 +1,19 @@
+<h4 class="ui dividing blue header">{{ formation.title }}</h4>
+<table class="ui very basic very compact small table">
+  <tbody>
+    {% for formation in formation.list %}
+    <tr>
+      <td>
+        <strong>{{ formation.school }}</strong>
+        {% for item in formation.diplome %}
+        <br/>{{ item }}
+        {% endfor %}
+      </td>
+      <td class="right aligned single line">
+        <em>{{ formation.date }}</em>
+        <br/><small>{{ formation.place }}</small>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
