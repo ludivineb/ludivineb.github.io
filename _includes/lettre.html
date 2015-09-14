@@ -21,7 +21,7 @@
     <p><strong>Objet : {{data.objet}}</strong></p>
     {% endif %}
     <br/>
-    <p>Madame, Monsieur,</p>
+    <p>{% include lettre_mme_mr.html %}</p>
 
     {% for paragraphe in data.paragraphes %}
       <p align="justify" style="text-indent: 1em">{{ paragraphe }}</p>
