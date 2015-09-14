@@ -1,14 +1,16 @@
-<div class="ui list">
-  <div class="item">
-    <div class="content">
-      <div class="header">
-        {{ data.entete-header }}
+<div class="ui right floated segment">
+  <div class="ui list">
+    <div class="item">
+      <div class="content">
+        <div class="header">
+          {{ data.entete-header }}
+        </div>
+        {% for item in data.entete-description %}
+        <div class="description">
+          {{ item }}
+        </div>
+        {% endfor %}
       </div>
-      {% for item in data.entete-description %}
-      <div class="description">
-        {{ item }}
-      </div>
-      {% endfor %}
     </div>
   </div>
 </div>
