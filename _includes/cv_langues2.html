@@ -1,0 +1,22 @@
+<h4 class="ui dividing blue header">{{ langues.title }}</h4>
+<div class="ui small list">
+  {% for langue in langues.list %}
+  <div class="item">
+    <div class="content">
+      <div class="header">{{ langue.title }}</div>
+      <div class="description">
+        <small>{{ langue.desc }}</small>
+      </div>
+    </div>
+    <div style="float:right">
+      {% for i in (1..5) %}
+        {% if i <= langue.note %}
+          <i class="small circle icon"></i>
+        {% else %}
+          <i class="small circle thin icon"></i>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
