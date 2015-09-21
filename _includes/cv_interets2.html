@@ -1,37 +1,9 @@
 <h4 class="ui dividing blue header">{{ interets.title }}</h4>
-<div class="ui two column grid">
-  <div class="column">
-    <table class="ui very basic very compact top aligned small table">
-      <tbody>
-        {% for interet in interets.list %}
-        {% if interet.colonne == 1 %}
-        <tr>
-          <td>
-            <strong>{{ interet.title }}</strong>
-            <br/>{{ interet.description }}
-          </td>
-        </tr>
-        {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
+<div class="ui small list">
+  {% for interet in interets.list %}
+  <div class="item">
+    <div class="header">{{ interet.title }}</div>
+    <div class="description">{{ interet.description }}</div>
   </div>
-  <div class="column">
-    <table class="ui very basic very compact top aligned small table">
-      <tbody>
-        {% for interet in interets.list %}
-        {% if interet.colonne == 2 %}
-        <tr>
-          <td>
-            <strong>{{ interet.title }}</strong>
-            {% if interet.description %}
-            <br/>{{ interet.description }}
-            {% endif %}
-          </td>
-        </tr>
-        {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+  {% endfor %}
 </div>
