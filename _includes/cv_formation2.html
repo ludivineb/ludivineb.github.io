@@ -1,0 +1,17 @@
+<h4 class="ui dividing blue header">{{ formation.title }}</h4>
+<div class="ui small divided list">
+  {% for formation in formation.list %}
+  <div class="item">
+    <div class="content">
+      <div class="header">{{ formation.school }}</div>
+      <div class="description">
+        {{ formation.place }}
+        <em>{{ formation.date }}</em>
+      </div>
+      {% for item in formation.diplome %}
+      {{ item }}<br/>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
