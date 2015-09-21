@@ -1,7 +1,7 @@
 <h4 class="ui dividing blue header">{{ experience.title }}</h4>
+{% for experience in experience.list %}
 <table class="ui very basic very compact small table">
   <tbody>
-    {% for experience in experience.list %}
     <tr>
       <td>
         <div class="ui small divided list">
@@ -49,6 +49,6 @@
         </div>
       </td>
     </tr>
-    {% endfor %}
   </tbody>
 </table>
+{% endfor %}
