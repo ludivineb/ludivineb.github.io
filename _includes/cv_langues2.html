@@ -1,7 +1,7 @@
 <h4 class="ui dividing blue header" style='margin-bottom: 1rem'>{{ langues.title }}</h4>
 <div class="ui two column grid">
   {% for langue in langues.list %}
-  <div class="eleven wide column" style='padding-top:0px; padding-bottom:0px'>
+  <div class="ten wide column" style='padding-top:0px; padding-bottom:0px'>
     <div class="ui small list">
       <div class="item">
         <div class="content">
@@ -13,7 +13,7 @@
       </div>
     </div>
   </div>
-  <div class="five wide column" style='padding-top:0px; padding-bottom:0px'>
+  <div class="six wide column" style='padding-top:0px; padding-bottom:0px'>
     <div style="float:right">
       {% for i in (1..5) %}
         {% if i <= langue.note %}
