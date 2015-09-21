@@ -1,0 +1,55 @@
+<h4 class="ui dividing blue header">{{ experience.title }}</h4>
+{% for experience in experience.list %}
+<table class="ui very basic very compact small table">
+  <tbody>
+    {% for formation in experience.list %}
+    <tr>
+      <td>
+        <div class="ui small divided list">
+          <div class="item">
+            <div class="content">
+              <div class="header">{{ experience.title }}</div>
+              <div class="description">
+                {{ experience.compagn }},
+                <em>{{ experience.date }}</em>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="ui small list">
+          {% if experience.projets %}
+            {% for projet in experience.projets %}
+            <div class="item">
+              Projet
+              {% if projet.numero %}{{ projet.numero }}{% endif %}
+              : {{ projet.name }}</div>
+            {% endfor %}
+          {% endif %}
+          {% for section in experience.list %}
+          <div class="item">
+            <div class="ui bulleted list">
+              {% for item in section.items %}
+              <div class="item">
+                <div class="content">{{ item.name }}</div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+          {% if experience.reference-name %}
+          <div class="item">Référence :
+            {{ experience.reference-name}},
+            {{ experience.reference-title }}
+            (<a href="mailto:{{experience.reference-email}}">{{ experience.reference-email}}</a>)
+          </div>
+          {% endif %}
+        </div>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
