@@ -1,23 +1,17 @@
 title: Expérience
 list:
-- title  : Co-fondatrice d'une association
-  compagn: "But : Encourager l'autonomie des populations locales à travers la récupération de matériaux"
-  date   : Décembre 2014 - présent
-  place  : France, Nouvelle-Zélande
+- title  : Bénévole dans des fermes biologiques
+  compagn: WWOOF (World-Wide Opportunities on Organic Farms)
+  date   : Janvier 2015 - Juillet 2015
+  place  : Nouvelle-Zélande
   projets:
-  - name: Proposer des événements et des ateliers autour de la réutilisation et des principes de la permaculture
-  list  :
-  - name: "Rôles et responsabilités : "
-    items:
-    - name: Concevoir bénévolement un jardin agro-écologique en Nouvelle-Zélande (Janvier-Juillet 2015)
-    - name: Mettre en pratique les techniques apprises lors de mon Certificat en Permaculture en mars 2013
-    - name: Gérer un chantier participatif autour de la construction d'une maison bioclimatique en matériaux de récupération
-- title  : Chef de projet – Transformation du programme de Médecine
-  compagn: Faculté de Médecine, Université de Montréal
+  - name : Concevoir un jardin agro-écologique pour une association dont le but est de promouvoir la permaculture
+- title  : Chef de projet – Réforme du programme de la Faculté de Médecine
+  compagn: Université de Montréal
   date   : Janvier 2013 – Décembre 2014
   place  : Montréal (Canada)
   projets :
-  - name: Réformer la formation à l'externat des futurs Médecins avec l'approche par compétences
+  - name: Réformer la formation des futurs Médecins avec l'approche par compétences
   list  :
   - name: "Rôles et responsabilités : "
     items:
@@ -62,3 +56,22 @@ list:
   reference-name: Marc-Antoine Coutu
   reference-title: Consultant Senior
   reference-email: "ma.coutu@mgroupeconseil.ca"
+- title: Conseillère clientèle professionnelle
+  compagn: Crédit du Nord, institution bancaire
+  date : Janvier 2010 – Juin 2010
+  place: Paris (France)
+  list  :
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Évaluer les besoins des clients professionnels et les conseiller sur la réalisation de leurs projets commerciaux
+    - name: Former les dossiers de crédit, effectuer des opérations de placement et cartographier les risques clients
+    - name: Identifier des occasions d’affaires puis développer, fidéliser et suivre les comptes clients
+- title: Responsable relation-producteurs de la région sud-est
+  compagn: Regioneo.com, site de vente de produits alimentaires régionaux
+  date : Juin 2009 – Septembre 2009
+  place: Lyon (France)
+  list  :
+  - name: "Rôles et responsabilités : "
+    items:
+    - name: Contribuer au développement d’affaires de la start-up en négociant avec les futurs clients
+    - name: Coordonner l’organisation logistique de la force commerciale dans toute la région sud-est
