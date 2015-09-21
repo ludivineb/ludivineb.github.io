@@ -1,19 +1,23 @@
-<h4 class="ui dividing blue header">{{ competences_inter.title }}</h4>
-<table class="ui very basic very compact small table">
-  <tbody>
-    {% for competence in competences_inter.list %}
-        <tr>
-          <td>{{ competence.name}}</td>
-          <td class="right aligned single line">
-            {% for i in (1..5) %}
-              {% if i <= competence.note %}
-                <i class="small circle icon"></i>
-              {% else %}
-                <i class="small circle thin icon"></i>
-              {% endif %}
-            {% endfor %}
-          </td>
-        </tr>
-        {% endfor %}
-  </tbody>
-</table>
+<h4 class="ui dividing blue header" style='margin-bottom: 1rem'>{{ competences_inter.title }}</h4>
+<div class="ui two column grid">
+  {% for competence in competences_inter.list %}
+  <div class="ten wide column" style='padding-top:0px; padding-bottom:0px'>
+    <div class="ui small list">
+      <div class="item">
+        {{ competence.name }}
+      </div>
+    </div>
+  </div>
+  <div class="six wide column" style='padding-top:0px; padding-bottom:0px'>
+    <div style="float:right">
+      {% for i in (1..5) %}
+        {% if i <= competence.note %}
+          <i class="small circle icon"></i>
+        {% else %}
+          <i class="small circle thin icon"></i>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
