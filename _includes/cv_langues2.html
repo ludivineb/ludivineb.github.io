@@ -1,13 +1,19 @@
 <h4 class="ui dividing blue header">{{ langues.title }}</h4>
-<div class="ui small list">
+<div class="ui two column grid">
   {% for langue in langues.list %}
-  <div class="item">
-    <div class="content">
-      <div class="header">{{ langue.title }}</div>
-      <div class="description">
-        <small>{{ langue.desc }}</small>
+  <div class="column">
+    <div class="ui small list">
+      <div class="item">
+        <div class="content">
+          <div class="header">{{ langue.title }}</div>
+          <div class="description">
+            <small>{{ langue.desc }}</small>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+  <div class="column">
     <div style="float:right">
       {% for i in (1..5) %}
         {% if i <= langue.note %}
