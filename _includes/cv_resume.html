@@ -1,7 +1,9 @@
 <h3 class="ui dividing header" style="color: #006AC2">{{ entete.title }}</h3>
 <div class="ui small list">
   <div class="item">
+    {% if resume.objectif %}
     <div class="content">Objectif : {{ resume.objectif }}</div>
+    {% endif %}
     <div class="ui bulleted list">
       {% for item in resume.list %}
       <div class="item">{{ item }}</div>
